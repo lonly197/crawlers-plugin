@@ -1,0 +1,25 @@
+.selected-list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1009px;
+    max-height: 150px;
+    overflow-y: scroll;
+    background-color: #fff;
+    border-bottom: solid 1px rgb(156, 156, 156);
+    z-index: 99999;
+}
+.selected-list table{
+    width: 100%;
+    border-bottom: 1px #efefef solid;
+    border-left: 1px #efefef solid;
+}
+.selected-list td,
+.selected-list th {
+    max-width: 0; /* 防止内容过多撑开宽度 */
+    vertical-align: top;
+    padding: 6px;
+    border: 1px solid #efefef;
+    border-width: 1px 1px 0 0;
+    word-break: break-all;
+}

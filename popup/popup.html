@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            width: 200px;
+        }
+        button {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <p>
+            <label>{{ text.url }}</label>
+            <br>
+            <input list="urlList"  v-model="form.url" @keyup.enter="saveUrl">
+            <datalist id="urlList">
+                <option v-for="item in urlList">
+                    {{ item.value }}
+                </option>
+            </datalist>
+        </p>
+        <p>
+            <label>{{ text.extractContent }}</label>
+            <br>
+            <button @click="extract(item.value)" :value="item.value" v-for="item in contentList">{{ item.label }}</button>
+        </p>
+    </div>
+
+    <script src="../js/vue.min.js"></script>
+    <script src="../js/vue-i18n.js"></script>
+    <script src="popup.js"></script>
+</body>
+
+</html>

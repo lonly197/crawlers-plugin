@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+.hide {
+    display: none;
+}
+.red {
+    color: #ff4949;
+}
+.tooltip {
+    width: 491px !important;
+}
+
+#tooltip .tooltip_header {
+    /*background-color: #f1f1f1;*/
+    padding: 8px 10px 8px 20px;
+    text-align: center; 
+}
+
+#tooltip .tooltip_header_title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1f2d3d;
+}
+
+#tooltip .tooltip_body {
+    padding: 20px 20px 10px;
+    font-size: 14px;
+}
+
+#tooltip .tooltip_body_form_div_sp{
+    width: 100%;
+}
+
+#tooltip .sp_line{
+    width: 49%;
+    display: inline-block;
+}
+#tooltip .tooltip_body_form_div {
+    margin-bottom: 32px;
+    position: relative;
+}
+
+#tooltip .tooltip_body_form_div_input_tpl {
+
+}
+
+#tooltip .tooltip_body_form_div_label {
+    text-align: left; 
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: -1.5em; 
+    
+}
+
+#tooltip .tooltip_body_form_div_label_require {
+    color: #ff4949 !important;
+}
+
+
+#tooltip .tooltip_body_form_div_input {
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #c0ccda;
+    color: #1f2d3d;
+    display: block;
+    font-size: inherit;
+    height: 36px;
+    line-height: 1;
+    padding: 3px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#tooltip .tooltip_body_form_div_select{
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #c0ccda;
+    color: #1f2d3d;
+    display: block;
+    font-size: inherit;
+    height: 36px;
+    line-height: 1;
+    padding: 3px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#tooltip .tooltip_body_form_div_textarea{
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #c0ccda;
+    color: #1f2d3d;
+    display: block;
+    font-size: inherit;
+    height: 150px;
+    line-height: 1;
+    padding: 3px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#tooltip .tooltip_footer {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#tooltip .tooltip_footer_button_cancel {
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #c0ccda;
+    color: #1f2d3d;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+#tooltip .tooltip_footer_button_ok {
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #c0ccda;
+    color: #1f2d3d;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: #20a0ff;
+    border-color: #20a0ff;
+}
+
+#tooltip .nullResult{
+    color: #d1d1d1; 
+}
+/**
+ * jQuery Editable Select
+ * Indri Muska <indrimuska@gmail.com>
+ *
+ * Source on GitHub @ https://github.com/indrimuska/jquery-editable-select
+ */
+
+input.es-input { padding-right: 20px !important; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAICAYAAADJEc7MAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAG2YAABzjgAA4DIAAIM2AAB5CAAAxgwAADT6AAAgbL5TJ5gAAABGSURBVHjaYvz//z8DOYCJgUzA0tnZidPK8vJyRpw24pLEpwnuVHRFhDQxMDAwMPz//x+OOzo6/iPz8WFGuocqAAAA//8DAD/sORHYg7kaAAAAAElFTkSuQmCC) right center no-repeat; }
+input.es-input.open {
+    -webkit-border-bottom-left-radius: 0; -moz-border-radius-bottomleft: 0; border-bottom-left-radius: 0;
+    -webkit-border-bottom-right-radius: 0; -moz-border-radius-bottomright: 0; border-bottom-right-radius: 0; }
+.es-list { position: absolute; padding: 0; margin: 0; border: 1px solid #d1d1d1; display: none; z-index: 1000; background: #fff; max-height: 160px; overflow-y: auto;
+    -moz-box-shadow: 0 2px 3px #ccc; -webkit-box-shadow: 0 2px 3px #ccc; box-shadow: 0 2px 3px #ccc; }
+.es-list li { display: block; padding: 5px 10px; margin: 0; }
+.es-list li.selected { background: #f3f3f3; }
+.es-list li[disabled] { opacity: .5; }

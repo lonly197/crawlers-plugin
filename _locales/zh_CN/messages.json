@@ -1,0 +1,21 @@
+{
+    "extensionName": { "message": "网页内容采集规则抽取工具" },
+    "extensionDescription": { "message": "抽取页面元素的jQuery Unique Selector" },
+    "templateId": { "message": "模板ID"},
+    "tooltipTitle": { "message": "抽取规则" },
+    "tooltipFormExp": { "message": "抽取表达式" },
+    "tooltipFormFetchResult": { "message": "抽取结果" },
+    "tooltipFormFetchResultTip": { "message": "结果未抽取" },
+    "tooltipFormField": { "message": "存储字段" },
+    "tooltipFormAttr": { "message": "表达式类型" },
+    "tooltipFormFunc": { "message": "Java功能函数" },
+    "tooltipButtonCancel": { "message": "取消" },
+    "tooltipButtonOK": { "message": "确定" },
+    "tootipExtractAttr": { "message": "属性抽取"},
+    "tooltipJs": {"message": "js 代码"},
+    "resultLoading": {"message": "加载中..."},
+    "popup_url": {"message": "服务器地址(按下回车键保存)"},
+    "popup_extractContent": {"message": "抽取内容"},
+    "popup_normalEle": {"message": "普通元素"},
+    "popup_pageEle": {"message": "分页页码元素"}
+}

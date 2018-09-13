@@ -1,0 +1,20 @@
+{
+    "extensionName": { "message": "Find jQuery Unique Selector" },
+    "extensionDescription": { "message": "Find the unique selector for any element on page." },
+    "tooltipTemplateId": { "message": "Template ID"},
+    "tooltipTitle": { "message": "Extract Rules" },
+    "tooltipFormExp": { "message": "Extract Expression" },
+    "tooltipFormFetchResult": { "message": "Extract Result" },
+    "tooltipFormField": { "message": "Storage Field" },
+    "tooltipFormAttr": { "message": "Extract Attribute" },
+    "tooltipFormFunc": { "message": "Java Function" },
+    "tooltipButtonCancel": { "message": "Cancel" },
+    "tooltipButtonOK": { "message": "OK" },
+    "tootipExtractAttr": { "message": "Attr Extract"},
+    "tooltipJs": {"message": "Js Code"},
+    "resultLoading": {"message": "Loading..."},
+    "popup_url": {"message": "Server address(Press enter to save)"},
+    "popup_extractContent": {"message": "Extracting"},
+    "popup_normalEle": {"message": "Normal element"},
+    "popup_pageEle": {"message": "Pagination element"}
+}
